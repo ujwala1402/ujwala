@@ -4,7 +4,7 @@ from groq import Groq
 
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="PragyanAI Groq Streamlit APP")
-
+st.title("Ujwala Patne's LLM Based Bot")
 st.divider()  # 👈 Draws a horizontal rule
 
 def icon(emoji: str):
